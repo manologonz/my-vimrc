@@ -1,14 +1,14 @@
 # my-vimrc
 my personal vim configuration seprated in modules.
-1. The init.vim file
+1. The **init.vim** file
 Contains the default and basic configuration from nvim/vim
-2. The plugins.vim file
+2. The **plugins.vim** file
 Contains the plugins to be installed.
-3. The plugins-configs.vim
+3. The **plugins-configs.vim** file
 Contains the configuration for the plugins to work.
-4. The maps.vim file
+4. The **maps.vim** file
 Contains remaps of some of the keybindings and comands.
-5. The UtilSnips folder an files inside
+5. The **UtilSnips** folder an files inside
 Contains presonal snippets
 
 # Setup
