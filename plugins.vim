@@ -8,7 +8,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
-Plug 'ycm-core/YouCompleteMe'
+"Plug 'ycm-core/YouCompleteMe'
 Plug 'mbbill/undotree' 
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', {'do': { -> fzf#install()}}
@@ -28,5 +28,10 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'prettier/vim-prettier', {'do': 'npm install','for': ['javascript', 'typescript', 'css', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html']} 
 "Plug 'Shougo/deoplete.nvim'
+Plug 'sheerun/vim-polyglot'
+Plug 'shinchu/lightline-gruvbox.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'mhinz/vim-signify'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
